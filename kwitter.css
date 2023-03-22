@@ -14,3 +14,7 @@ h1 {
     background-color: aliceblue;
     width: 80%;
 }
+
+#userName{
+    color: darkslategrey;
+}
