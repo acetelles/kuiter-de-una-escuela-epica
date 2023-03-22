@@ -1,0 +1,11 @@
+body {
+    background-color:cornflowerblue;
+}
+
+h1 {
+    color: blanchedalmond;
+}
+
+#user_name, #roomName{
+    width: 50%;
+}
