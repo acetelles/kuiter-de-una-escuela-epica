@@ -1,4 +1,4 @@
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyA-j1pcWVe4JXzYNc80HVb4VHpR1ZdWolU",
     authDomain: "prueba-clase-9138b.firebaseapp.com",
     projectId: "prueba-clase-9138b",
@@ -8,7 +8,7 @@ const firebaseConfig = {
   };
   
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 
 
