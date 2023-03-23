@@ -21,6 +21,9 @@ firebase.initializeApp(firebaseConfig);
     firebase.database().ref("/").child(room_name).update({
         purpose: "Agregando la sala"
     });
+
+    localStorage.setItem("room_name", room_name);
+    window.location("Kwitter_page.html")
     //local storage - nombre de la id q guarda la room, coma y el nombre de la variable d la room
     //window location. (lapagina)
   }
